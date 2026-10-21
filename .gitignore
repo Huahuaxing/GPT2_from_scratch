@@ -1,0 +1,25 @@
+# uv虚拟环境
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 模型权重、数据、存档
+*.npy
+*.npz
+*.sav
+checkpoint/
+log/
+dataset/
+
+# Windows ADS zone标记文件
+*:Zone.Identifier
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+.DS_Store
